@@ -1,0 +1,9 @@
+<!--start.wxml-->
+<view class="intro">
+  目的: 在手机端查看今天室内温湿度(别忘了喝热水)，顺便看一下坐姿情况
+</view>
+
+<button class="btn1" bindtap="navigate">你点我呀！</button>
+<image class="t9"
+mode="scaleToFill" src="{{imageSrc}}"></image>
+

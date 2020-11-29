@@ -1,0 +1,9 @@
+<view class="t6">以下可查看您的坐姿情况，低于5cm的时间过多代表您伏案时间过长</view>
+<canvas class = "canvas" id="chart1"
+canvas-id="distance"></canvas>
+<view class="t6">这里是室内湿度情况，当湿度低时请记得给自己补水哦</view>
+<canvas class = "canvas" id="chart2"
+canvas-id="humidity"></canvas>
+<view class="t6"> 这里是室内温度情况，请根据温度变换给自己增添衣物</view>
+<canvas class = "canvas" id="chart3"
+canvas-id="tempe"></canvas>

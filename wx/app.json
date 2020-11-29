@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tl/tl",
+    "pages/image/image",
+    "pages/start/start",
+    "pages/kf/kf",
+    "pages/cd/cd",
+    "pages/wifi_station/tianqi/tianqi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E0FFFF",
+    "navigationBarTitleText": "正人君子",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#00008B",
+    "selectesColor": "#00BFFF",
+    "backgroundColor": "#E0FFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/image/1.png",
+        "selectedIconPath": "pages/image/2.png"
+      },
+      {
+        "pagePath": "pages/start/start",
+        "text": "查询",
+        "iconPath": "pages/image/1.png",
+        "selectedIconPath": "pages/image/3.png"
+      },
+      {
+        "pagePath": "pages/kf/kf",
+        "text": "开发者",
+        "iconPath": "pages/image/1.png",
+        "selectedIconPath": "pages/image/4.png"
+      }
+    ],
+    "component": true,
+    "usingComponents": {}
+  }
+}

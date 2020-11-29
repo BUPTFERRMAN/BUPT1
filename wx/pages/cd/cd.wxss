@@ -1,0 +1,10 @@
+Page{
+  height:100%
+}
+.countDown{
+  height:30%;
+ 
+}
+.wen{font-size:200rpx;
+text-align:center;
+}

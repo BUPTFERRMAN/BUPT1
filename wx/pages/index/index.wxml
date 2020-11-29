@@ -1,0 +1,34 @@
+
+<!--index.wxml-->
+<view class="h1">我们终将去往更美的地方</view>
+<!--这里我放一个图片-->
+<image style="width:100%;height:200px;margin:0px;"
+mode="scaleToFill" src="{{imageSrc}}"></image>
+<view style="background:ur1('../image/ry.jpeg')"></view>
+
+
+ 
+<button class='bin1' bindtap="gotocd"><image class='btnimg1' src='../image/mx.jpeg'></image>
+</button>
+<view class="start">开始矫正</view>
+<view>你猜这个首页有没有彩蛋，猜对我就告诉你有</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

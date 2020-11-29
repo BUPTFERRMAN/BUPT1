@@ -1,0 +1,12 @@
+<!--调用倒计时函数-->
+<view class='countDown'>倒计时：<text class="wen"
+  style='color:red'>{{countDownNum}}</text>s</view>
+  <input class='aa' placeholder="请输入你要学习的时间，单位为秒"
+  placeholder-class="iconfont icon-suosuo mid-font" placeholder-style="color:#999999;font-size:14px"
+    bindinput="bindinput"></input>
+<view>卷前小贴士：</view>
+  <view>一次学习不要超过60分钟，那样对身体不好</view>
+  <view>一次学习不要少于30分钟，那样对分数不好</view>
+  <button bindtap="action" type="primary">我决定了，就卷那么长时间</button>
+  <!--当按钮按下时图片显示-->
+   <view wx:if="{{date>0}}"><image src="/pages/image/xdd.jpg"></image></view>

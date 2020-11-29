@@ -1,0 +1,19 @@
+/* pages/kf/kf.wxss */
+.t1{  font-size: 1.2em;/*定义字体大小*/
+  text-align: center;/*定义文本居中对齐*/
+  background-color: rgb(21, 144, 226);
+  color: beige;
+}
+.t2{font-size: 0.8em;/*定义字体大小*/
+  text-align: left;/*定义文本居中对齐*/
+  background-color:rgb(0, 217, 255);
+  color: rgb(240, 240, 208);
+}
+.t3{font-size: 1.4em;/*定义字体大小*/
+  text-align: left;/*定义文本居中对齐*/
+  background-color:rgb(0, 217, 255);
+  color: rgb(240, 240, 208);
+}
+.b1{
+  background-color: aqua;
+}

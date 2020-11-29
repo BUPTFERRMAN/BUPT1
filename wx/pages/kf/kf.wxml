@@ -1,0 +1,12 @@
+<!--pages/kf/kf.wxml-->
+<view class="t1">您好，这里是开发者信息</view>
+<view class="t2">本产品为帮助协同矫正坐姿，提高生活质量的小程序端，是开发者："BUPTFERRYMEN"的初次编程,用于查询室内温湿度，查询自己一人内的坐姿变化</view>
+  <view class="t2">开发者：郭子骥，邸天泽</view>
+  <view class="t2">地址：北京邮电大学</view>
+  <view class="t2">QQ：1799085298</view>
+
+  <image style="width:100%;height:200px;margin:0px;"
+mode="scaleToFill" src="{{imageSrc}}"></image>
+
+<view class="t3">如果您对开发者有任何建议欢迎联系</view>
+<button bindtap="goto" class="b1">这不是彩蛋</button>
